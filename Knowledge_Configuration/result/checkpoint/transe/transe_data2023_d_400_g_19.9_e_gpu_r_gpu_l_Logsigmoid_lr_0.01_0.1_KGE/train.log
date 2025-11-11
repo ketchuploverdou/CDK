@@ -1,0 +1,63 @@
+2023-05-04 21:42:48 INFO     seed                :0
+2023-05-04 21:42:48 INFO     data_path           :./data/
+2023-05-04 21:42:48 INFO     save_path           :./result/checkpoint/transe/transe_data2023_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.01_0.1_KGE
+2023-05-04 21:42:48 INFO     init_from_ckpt      :None
+2023-05-04 21:42:48 INFO     data_name           :data2023
+2023-05-04 21:42:48 INFO     use_dict            :False
+2023-05-04 21:42:48 INFO     kv_mode             :False
+2023-05-04 21:42:48 INFO     batch_size          :16
+2023-05-04 21:42:48 INFO     test_batch_size     :16
+2023-05-04 21:42:48 INFO     neg_sample_size     :200
+2023-05-04 21:42:48 INFO     filter_eval         :False
+2023-05-04 21:42:48 INFO     model_name          :transe
+2023-05-04 21:42:48 INFO     embed_dim           :400
+2023-05-04 21:42:48 INFO     reg_coef            :0
+2023-05-04 21:42:48 INFO     loss_type           :Logsigmoid
+2023-05-04 21:42:48 INFO     max_steps           :20000
+2023-05-04 21:42:48 INFO     lr                  :0.01
+2023-05-04 21:42:48 INFO     optimizer           :adagrad
+2023-05-04 21:42:48 INFO     cpu_lr              :0.1
+2023-05-04 21:42:48 INFO     cpu_optimizer       :adagrad
+2023-05-04 21:42:48 INFO     mix_cpu_gpu         :False
+2023-05-04 21:42:48 INFO     async_update        :False
+2023-05-04 21:42:48 INFO     valid               :True
+2023-05-04 21:42:48 INFO     test                :False
+2023-05-04 21:42:48 INFO     task_name           :KGE
+2023-05-04 21:42:48 INFO     num_workers         :2
+2023-05-04 21:42:48 INFO     neg_sample_type     :chunk
+2023-05-04 21:42:48 INFO     neg_deg_sample      :False
+2023-05-04 21:42:48 INFO     neg_adversarial_sampling:False
+2023-05-04 21:42:48 INFO     adversarial_temperature:1.0
+2023-05-04 21:42:48 INFO     filter_sample       :False
+2023-05-04 21:42:48 INFO     valid_percent       :1.0
+2023-05-04 21:42:48 INFO     use_feature         :False
+2023-05-04 21:42:48 INFO     reg_type            :norm_er
+2023-05-04 21:42:48 INFO     reg_norm            :3
+2023-05-04 21:42:48 INFO     weighted_loss       :False
+2023-05-04 21:42:48 INFO     margin              :1.0
+2023-05-04 21:42:48 INFO     pairwise            :False
+2023-05-04 21:42:48 INFO     gamma               :19.9
+2023-05-04 21:42:48 INFO     ote_scale           :0
+2023-05-04 21:42:48 INFO     ote_size            :1
+2023-05-04 21:42:48 INFO     quate_lmbda1        :0.0
+2023-05-04 21:42:48 INFO     quate_lmbda2        :0.0
+2023-05-04 21:42:48 INFO     num_epoch           :10
+2023-05-04 21:42:48 INFO     scheduler_interval  :-1
+2023-05-04 21:42:48 INFO     num_process         :1
+2023-05-04 21:42:48 INFO     print_on_screen     :False
+2023-05-04 21:42:48 INFO     log_interval        :1000
+2023-05-04 21:42:48 INFO     save_interval       :-1
+2023-05-04 21:42:48 INFO     eval_interval       :10000
+2023-05-04 21:42:48 INFO     ent_emb_on_cpu      :False
+2023-05-04 21:42:48 INFO     rel_emb_on_cpu      :False
+2023-05-04 21:42:48 INFO     use_embedding_regularization:False
+2023-05-04 21:42:48 INFO     ent_dim             :400
+2023-05-04 21:42:48 INFO     rel_dim             :400
+2023-05-04 21:42:48 INFO     num_chunks          :1
+2023-05-04 21:42:55 INFO     [evaluation] start...
+2023-05-04 21:42:56 INFO     -------------- valid result --------------
+2023-05-04 21:42:56 INFO     t,r->h  |MRR: 0.003444175235927105 MR: 350.7 HITS@1: 0.0 HITS@3: 0.0 HITS@10: 0.0
+2023-05-04 21:42:56 INFO     h,r->t  |MRR: 0.011126318015158176 MR: 309.755 HITS@1: 0.0 HITS@3: 0.01 HITS@10: 0.025
+2023-05-04 21:42:56 INFO     average |MRR: 0.007285246625542641 MR: 330.22749999999996 HITS@1: 0.0 HITS@3: 0.005 HITS@10: 0.0125
+2023-05-04 21:42:56 INFO     -----------------------------------------
+2023-05-04 21:42:56 INFO     [evaluation] finished! It takes 0.7628 sec s
